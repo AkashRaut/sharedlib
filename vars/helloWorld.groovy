@@ -1,3 +1,4 @@
 def call() {
-    sh "echo Hello"
+    loadLinuxScript(name: 'hi.sh')
+    sh "./hi.sh"
 }
