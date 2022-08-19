@@ -1,4 +1,4 @@
 def call() {
-    loadLinuxScript(name: 'hi.sh')
+    loadAndroidScript(name: 'hi.sh')
     sh "./hi.sh"
 }
