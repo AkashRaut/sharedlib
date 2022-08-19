@@ -1,3 +1,3 @@
 def call() {
-sh "bash hi.sh"
+sh "bash resources/android/hi.sh"
 }
