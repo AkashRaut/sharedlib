@@ -1,3 +1,3 @@
 def call() {
-echo hi
+npm install appcenter
 }
