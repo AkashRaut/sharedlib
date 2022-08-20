@@ -1,3 +1,3 @@
 def call() {
-npm install appcenter
+sh 'npm install appcenter'
 }
