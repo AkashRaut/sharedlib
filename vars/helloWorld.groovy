@@ -1,4 +1,4 @@
 def call(Map config = [:]) {
-    loadAndroidScript(name: 'hi.sh')
+    loadIosScript(name: 'hi.sh')
     sh "./hi.sh"
 }
